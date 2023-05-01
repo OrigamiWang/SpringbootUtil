@@ -25,3 +25,17 @@
             - 异步producer
         - consumer
         - 为了监听异步producer，使用ProducerListener
+
+
+## GlobalExceptionDemo
+- **全局异常处理**和**通用返回结果**工具
+- 主要内容
+    - 全局异常处理
+        - @ControllerAdvice
+        - @ExceptionHandler
+        - @ResponseBody
+    - 通用返回结果
+        - enum ErrCode
+        - ResultCode implements ErrCode
+        - CommonResult 自定义通用返回结果
+        - 自定义异常类 extends RuntimeException
