@@ -11,3 +11,17 @@
         - 拦截器配置类（分页才会生效）
     - Transactional注解
         - 原子性
+
+## KafkaDemo
+- Kafka工具
+- 主要内容
+    - 环境搭建
+        - kafka依赖zookeeper，先启动zookeeper：`.\zkServer`
+        - 再启动kafka：`.\bin\windows\kafka-server-start.bat .\config\server.properties`
+    - kafka的整合
+        - 配置application.yml
+        - producer
+            - 同步producer
+            - 异步producer
+        - consumer
+        - 为了监听异步producer，使用ProducerListener
