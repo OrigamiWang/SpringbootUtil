@@ -1,0 +1,13 @@
+POST products/product/_bulk
+{"index":{"_id":"1"}}
+{"name": "bike", "price": 150, "sku": "black"}
+{"index":{"_id":"2"}}
+{"name": "my bike", "price": 100, "sku": "silver"}
+{"index":{"_id":"3"}}
+{"name": "my small shit bike", "price": 40, "sku": "aaa"}
+{"index":{"_id":"4"}}
+{"name": "bike king", "price": 250, "sku": "gold"}
+{"index":{"_id":"5"}}
+{"name": "bike_shit", "price": 111, "sku": "gold"}
+{"index":{"_id":"6"}}
+{"name": "bikeK", "price": 110, "sku": "gold"}
